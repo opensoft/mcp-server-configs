@@ -1,0 +1,15 @@
+{
+  "github": {
+    "command": "/opt/homebrew/bin/docker",
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "-e",
+      "GITHUB_PERSONAL_ACCESS_TOKEN=YOUR_GITHUB_TOKEN_HERE",
+      "mcp/github"
+    ],
+    "env": {},
+    "working_directory": null
+  }
+}
